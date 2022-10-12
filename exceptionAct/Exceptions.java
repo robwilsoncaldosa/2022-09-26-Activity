@@ -65,6 +65,9 @@ public SmartphoneException(String message){
                 
                
         }
+        for(int i = 0;i<Smartphones.size();i++){
+            System.out.println("Model:"+ Smartphones.get(i).getModel()+"    Price:"+Smartphones.get(i).getPrice());
+        }
         }
         
         
